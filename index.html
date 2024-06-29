@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE LaunchPad Kerala Newsletter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 10px 120px 20px;;
+            background-color: #f4f4f4;
+            color: #000;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header, .footer {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        .content h2 {
+            color: #D57837;
+            border-bottom: 2px solid #D57837;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            text-align: justify;
+        }
+        .cta {
+            background: #D57837;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            margin: 20px 0;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            text-align: center;
+            display: block;
+        }
+        .cta:hover {
+            background: #b7642e;
+        }
+        .roadmap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: 20px 0;
+        }
+        .roadmap::before {
+            content: "";
+            position: absolute;
+            width: 4px;
+            height: 100%;
+            background: #D57837;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .roadmap-step {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            position: relative;
+            width: 80%;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .roadmap-step::before {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #D57837;
+            border-radius: 50%;
+            top: 50%;
+            left: -40px;
+            transform: translateY(-50%);
+        }
+        .roadmap-step:nth-child(odd) {
+            align-self: flex-start;
+        }
+        .roadmap-step:nth-child(even) {
+            align-self: flex-end;
+        }
+        .registration-process {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .registration-step {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .registration-step h3 {
+            color: #D57837;
+            margin-bottom: 10px;
+        }
+        .latest-updates {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .latest-updates h2 {
+            color: #D57837;
+            border-bottom: 2px solid #D57837;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .updates-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .updates-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        .updates-list li::before {
+            content: "\2022";
+            color: #D57837;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        .updates-shape {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 150px;
+            height: 150px;
+            background-color: #D57837;
+            border-radius: 50%;
+            transform: rotate(45deg);
+            z-index: -1;
+        }
+        .updates-shape::before {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #f9f9f9;
+            border-radius: 50%;
+            top: 25%;
+            left: 25%;
+        }
+        .updates-shape::after {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #D57837;
+            border-radius: 50%;
+            top: 25%;
+            left: 25%;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>IEEE LaunchPad Kerala Newsletter</h1>
+        </div>
+
+        <div class="content">
+            <h2>Introduction</h2>
+            <p>One of the most prestigious events organized by the IEEE Kerala Section and GTech MuLearn, this initiative is committed to creating opportunities for engineering students and graduates. Launchpad Kerala 2024 is a premier job fair that unites talented individuals with innovative companies in the technical and engineering sectors. This collaboration aims to drive advancement and innovation within Kerala's employment landscape by fostering the exchange of ideas and expertise. Hosted annually, this employment fair is a game-changer for both professionals and job seekers!</p>
+        </div>
+
+        <div class="content">
+            <h2>Call to Action</h2>
+            <p><li>Are you a student seeking networking opportunities, access to industry insights, exposure to diverse career paths, and personal development?</li></p>
+            <p><li>You'll gain all these perks and more by participating in Launchpad.</li></p>
+            <p>So, what are you waiting for? Registration is still open, and candidates can apply by following the registration process.</p>
+            <a href="https://www.ieee.org/join" class="cta">Join Us Now!</a>
+        </div>
+
+        <div class="content">
+            <h2>Registration Process</h2>
+            <div class="registration-process">
+                <div class="registration-step">
+                    <h3>Step 1</h3>
+                    <p><li><b>Online Registration Form</b></li></p>
+                    <p>The candidates interested in taking part in the job fair should register/login in the Digital Workforce Management Portal. Once logged in, apply for Job-29580 Launchpad Kerala 2024-Job Fair providing necessary details.</p>
+                </div>
+                <div class="registration-step">
+                    <h3>Step 2</h3>
+                    <p><li><b>Online Registration in Launchpad Website</b></li></p>
+                    <p>After successfully applying to the Launchpad Kerala 2024 through the Digital Workforce Management Portal, candidates must submit the additional details through the registration form.</p>
+                </div>
+                <div class="registration-step">
+                    <h3>Step 3</h3>
+                    <p><li><b>Confirmation</b></li></p>
+                    <p>The candidates will receive an email from the Launchpad Kerala 2024 team after registration closes. The candidates will be informed about the next steps either through an email or text messages. All updates will be posted on the updates page website of Launchpad Kerala 2024.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="latest-updates">
+                <div class="updates-shape"></div>
+                <h2>Latest Updates</h2>
+                <ul class="updates-list">
+                    <li>
+                        Registration Form - The candidate must register through a registration form in order to complete the application for Launchpad Kerala 2024. You’ll receive an email once the registration is completed. <a href="https://docs.google.com/forms/d/e/1FAIpQLScbzWX2FJ8lLMRcsYRoreYIWYNfF9zNtoizTFHBd6Q-23Vf3Q/alreadyresponded">Registration Link</a>
+                    </li>
+                    <li>
+                        Join the Community - Join the Gtech Mulearn Discord Server and complete the Launchpad Challenges. You can find the details here: <a href="https://github.com/gtech-mulearn/IEEE-LAUNCHPAD">IEEE-LAUNCHPAD</a>
+                    </li>
+                    <li>
+                        Technical Challenge - Once logged into the Mulearn Discord Server, you can find the levels and tasks related to the IEEE Launchpad category in the channel #ieee-launchpad-announcement.
+                        <ul>
+                            <li>Foundational Skills and Introduction</li>
+                            <li>Specialized Learning Paths and Challenges</li>
+                            <li>Industry-curated Challenges and Hackathons</li>
+                        </ul>
+                        Submit your completed tasks on time and avail Karma points.
+                        Launchpad office hours will be conducted every day from 8.00 pm to 9.00 pm at channel #ieee-launchpad-officehours.
+                        You can track your progress using your digital identity in the #ieee-launchpad-leaderboard.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Event Roadmap</h2>
+            <div class="roadmap">
+                <div class="roadmap-step">
+                    <strong>1</strong> Participant Registration
+                </div>
+                <div class="roadmap-step">
+                    <strong>2</strong> Company Registration Close
+                </div>
+                <div class="roadmap-step">
+                    <strong>3</strong> Challenge Start
+                </div>
+                <div class="roadmap-step">
+                    <strong>4</strong> Online Exam
+                </div>
+                <div class="roadmap-step">
+                    <strong>5</strong> Consolidated Rank List
+                </div>
+                <div class="roadmap-step">
+                    <strong>6</strong> Option Selection
+                </div>
+                <div class="roadmap-step">
+                    <strong>7</strong> Confirmed Mail to Selected Participants
+                </div>
+                <div class="roadmap-step">
+                    <strong>8</strong> Interviews
+                </div>
+            </div>
+            <p>Stay tuned for more details and make sure to mark your calendars!</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 IEEE LaunchPad Kerala. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
